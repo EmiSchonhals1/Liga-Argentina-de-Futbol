@@ -1,0 +1,9 @@
+<h1>PRE-HOME</h1>
+<h2>Ingrese su nombre de usuario y el club del cual es hincha</h2>
+
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Guardar</button>✔️
+</form>

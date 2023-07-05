@@ -1,0 +1,7 @@
+#puede que nos genere problemas o el mismo servidor borre la base de datos dsp de un tiempo, usaremos una database de Postgre
+db.sqlite3
+venv
+#ya que es solo para funcionamiento interno de Python
+__pycache__ 
+
+#TODO LO QUE NO ESTÉ EN ESTE ARCHIVO SERÁ PARTE DEL REPOSITORIO INICIAL
